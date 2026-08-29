@@ -1,0 +1,20 @@
+{
+  "name": "aadithya-personal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Portfolio of Aadithya Sivasankar N R",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Static portfolio ready for deployment'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "Aadithya Sivasankar N R",
+  "license": "MIT"
+}
