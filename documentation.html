@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Architecture & Code Documentation — Aadithya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-card: #131b2e;
+            --accent-blue: #38bdf8;
+            --accent-purple: #a855f7;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --code-bg: #070a12;
+            --border: rgba(255, 255, 255, 0.08);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 50px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+        }
+        .header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent-blue);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8 0%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+        h2 {
+            font-size: 1.4rem;
+            color: var(--text-main);
+            margin: 35px 0 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h2::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: linear-gradient(to bottom, var(--accent-blue), var(--accent-purple));
+            border-radius: 2px;
+        }
+        h3 {
+            font-size: 1.15rem;
+            color: var(--accent-blue);
+            margin: 22px 0 10px;
+        }
+        p {
+            color: var(--text-muted);
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 10px;
+            color: var(--text-muted);
+        }
+        li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--accent-purple);
+            font-weight: bold;
+        }
+        li strong {
+            color: var(--text-main);
+        }
+        pre {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px;
+            overflow-x: auto;
+            margin: 15px 0 25px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.88rem;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+        .code-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+        .callout {
+            background: rgba(56, 189, 248, 0.08);
+            border-left: 4px solid var(--accent-blue);
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 25px 0;
+        }
+        .callout p {
+            color: #bae6fd;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        .print-btn {
+            background: linear-gradient(135deg, #38bdf8 0%, #a855f7 100%);
+            color: white;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            float: right;
+            margin-top: -5px;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .print-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        @media print {
+            body { background: white; color: black; padding: 0; }
+            .container { border: none; box-shadow: none; padding: 0; max-width: 100%; background: white; }
+            .print-btn { display: none; }
+            h1 { -webkit-text-fill-color: black; }
+            pre { background: #f8fafc; color: #0f172a; border-color: #cbd5e1; }
+            p, li { color: #334155; }
+            .callout { background: #f0f9ff; border-color: #0284c7; }
+            .callout p { color: #0369a1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+            <span class="badge">Documentation</span>
+            <h1>Portfolio System Architecture & Code Breakdown</h1>
+            <p class="subtitle">A complete technical breakdown of languages, design systems, and the interactive cursor-tracking robot animation.</p>
+        </div>
+
+        <h2>1. Technologies & Languages Used</h2>
+        <ul>
+            <li><strong>HTML5 (HyperText Markup Language)</strong>: Semantic markup for document structure, accessible navigation landmarks, and direct vector SVG embedding.</li>
+            <li><strong>CSS3 (Cascading Style Sheets)</strong>: Custom properties (variables), 3D perspective (`perspective: 1200px`), glassmorphism backdrop filters, CSS keyframe animations, and mobile-first responsive media queries.</li>
+            <li><strong>JavaScript (Vanilla ES6+)</strong>: Pointer tracking math, vector normalization, linear interpolation (Lerp) animation loop with `requestAnimationFrame`, asynchronous `fetch()` API, and DOM event listeners.</li>
+            <li><strong>Vector SVG (Scalable Vector Graphics)</strong>: Hand-crafted multi-layered robot illustration with radial gradients, drop-shadow glow filters (`feGaussianBlur`), and helmet visor `clipPath`.</li>
+            <li><strong>Node.js Built-in HTTP Server (`server.js`)</strong>: Lightweight zero-dependency static file server with auto port-conflict recovery.</li>
+            <li><strong>FormSubmit Cloud API</strong>: Secure asynchronous message forwarder sending visitor messages directly to `aadithyasivasankar10@gmail.com`.</li>
+            <li><strong>Font Awesome 6 & Google Fonts (Outfit)</strong>: Vector iconography and modern typography.</li>
+        </ul>
+
+        <h2>2. Project File Structure & Roles</h2>
+        <ul>
+            <li><strong><code>index.html</code></strong>: Contains semantic sections: Navigation bar, Hero visual with Cyber Robot SVG, About (Education & Internships), Technical Skills, Projects, and Contact Form.</li>
+            <li><strong><code>style.css</code></strong>: Global styling tokens, 3D space perspective, robot floating keyframes, glassmorphism cards, and responsive rules for tablet and mobile.</li>
+            <li><strong><code>script.js</code></strong>: Mobile navbar controller, scroll-spy navigation, real-time mouse/touch vector tracking, Lerp loop, periodic eye blinking, and FormSubmit AJAX handler.</li>
+            <li><strong><code>server.js</code></strong>: Local development HTTP server serving files at <code>http://localhost:3000/</code>.</li>
+        </ul>
+
+        <h2>3. How the Robot Cursor-Tracking Animation Works (Step-by-Step)</h2>
+        <p>The interactive robot avatar in the hero section is implemented across three coordinated layers:</p>
+
+        <h3>Step A: SVG Layering Architecture (<code>index.html</code>)</h3>
+        <p>In <code>index.html</code> (lines 60–295), the robot is built from independent vector groups:</p>
+        <ul>
+            <li><strong><code>#char-head</code></strong>: Contains the entire head (outer purple hood, inner silver arch, cyan headphones with pulsing antenna LED, and dark visor). This group pivots in full 3D.</li>
+            <li><strong><code>#char-visor-group</code></strong>: Dark helmet shield with specular glass reflection overlays.</li>
+            <li><strong><code>#char-eyes-container</code> (with <code>clip-path="url(#visorClip)"</code>)</strong>: Ensures the eyes stay naturally constrained inside the helmet screen.</li>
+            <li><strong><code>#char-eyes</code> (<code>#eye-left</code>, <code>#eye-right</code>)</strong>: Glowing dual cyan-white eyes with radial gradients and neon glow filters.</li>
+        </ul>
+
+        <h3>Step B: 3D Perspective & Transform Origins (<code>style.css</code>)</h3>
+        <p>In <code>style.css</code> (lines 253–340), hardware-accelerated 3D transforms are enabled:</p>
+        <div class="code-title">CSS Perspective & Smooth Origin Points</div>
+        <pre><code>.hero-visual {
+    perspective: 1200px;           /* Sets the 3D camera depth */
+    transform-style: preserve-3d;
+}
+
+.char-head-group {
+    transform-origin: 205px 175px; /* Pivot around the center of the head */
+    will-change: transform;
+}
+
+.char-eyes-group {
+    transform-origin: 205px 172px; /* Eye tracking pivot */
+    will-change: transform;
+}</code></pre>
+
+        <h3>Step C: Mouse Vector Math & Normalization (<code>script.js</code>)</h3>
+        <p>In <code>script.js</code> (lines 116–160), mouse coordinates are converted into relative angles and bounded target values:</p>
+        <div class="code-title">JavaScript: Pointer Vector Calculation</div>
+        <pre><code>function handlePointerMove(clientX, clientY) {
+    const rect = characterContainer.getBoundingClientRect();
+    
+    // Find the center of the robot's head in viewport pixels
+    const charCenterX = rect.left + rect.width * 0.49;
+    const charCenterY = rect.top + rect.height * 0.33;
+
+    // Vector distance between cursor and head center
+    const deltaX = clientX - charCenterX;
+    const deltaY = clientY - charCenterY;
+
+    // Normalize between -1.0 and +1.0
+    const normX = Math.max(-1, Math.min(1, deltaX / (window.innerWidth * 0.4)));
+    const normY = Math.max(-1, Math.min(1, deltaY / (window.innerHeight * 0.4)));
+
+    // Set target positions for Eyes and 3D Head rotation
+    targetEyeX = normX * 24;      // Max 24px eye displacement
+    targetEyeY = normY * 18;      // Max 18px eye displacement
+    targetHeadRotY = normX * 18;  // Max 18deg Yaw (left-right tilt)
+    targetHeadRotX = -normY * 14; // Max 14deg Pitch (up-down tilt)
+}</code></pre>
+
+        <h3>Step D: Smooth Physics via Linear Interpolation (Lerp) (<code>script.js</code>)</h3>
+        <p>Instead of snapping rigidly, <code>script.js</code> (lines 187–218) runs a 60 FPS <code>requestAnimationFrame</code> loop that smoothly glides towards targets:</p>
+        <div class="code-title">JavaScript: 60 FPS Lerp Loop</div>
+        <pre><code>function animateCharacter() {
+    const lerpEye = 0.10;  // Eye responsiveness damping factor
+    const lerpHead = 0.08; // Head weight damping factor
+
+    // Linear Interpolation: current = current + (target - current) * factor
+    currentEyeX += (targetEyeX - currentEyeX) * lerpEye;
+    currentEyeY += (targetEyeY - currentEyeY) * lerpEye;
+
+    currentHeadRotY += (targetHeadRotY - currentHeadRotY) * lerpHead;
+    currentHeadRotX += (targetHeadRotX - currentHeadRotX) * lerpHead;
+
+    // Apply calculated transforms to the SVG DOM elements
+    charEyes.style.transform = `translate(${currentEyeX.toFixed(2)}px, ${currentEyeY.toFixed(2)}px)`;
+    charHead.style.transform = `translate(${currentHeadTransX.toFixed(2)}px, ${currentHeadTransY.toFixed(2)}px) 
+                                rotateY(${currentHeadRotY.toFixed(2)}deg) 
+                                rotateX(${currentHeadRotX.toFixed(2)}deg)`;
+
+    requestAnimationFrame(animateCharacter);
+}</code></pre>
+
+        <h3>Step E: Blinking & Micro-Interactions</h3>
+        <ul>
+            <li><strong>Random Blinking</strong>: A timer executes every 3–6.5 seconds, squashing <code>scaleY</code> of the eyes to <code>0.08</code> for 160ms.</li>
+            <li><strong>Window Exit Decay</strong>: When cursor leaves the browser window (<code>mouseleave</code>), all targets decay smoothly to 0, centering the robot.</li>
+            <li><strong>Click Celebration</strong>: Clicking the robot triggers a bounce keyframe animation (<code>robotCheer</code>) and an excited double-blink.</li>
+            <li><strong>Touch Screen Support</strong>: Mobile and tablet users can drag their finger across the screen to direct the robot's gaze.</li>
+        </ul>
+
+        <h2>4. Real-Time Gmail Dispatcher (Get In Touch Section)</h2>
+        <p>In <code>script.js</code> (lines 80–115), the contact form uses an asynchronous <code>fetch()</code> to FormSubmit API without reloading the page:</p>
+        <ul>
+            <li>Captures <code>name</code>, <code>email</code>, <code>subject</code>, and <code>message</code>.</li>
+            <li>Submits JSON payload directly to <code>https://formsubmit.co/ajax/aadithyasivasankar10@gmail.com</code>.</li>
+            <li>Displays animated feedback (<code>Sending...</code> &rarr; <code>Message Sent! ✓</code>).</li>
+            <li>Provides an automatic <code>mailto:</code> fallback in case of offline/network issues.</li>
+        </ul>
+
+        <div class="callout">
+            <p><strong>Summary:</strong> This portfolio is built with zero external framework dependencies, providing blazing-fast load times, true 60fps hardware-accelerated animations, and instant cloud email delivery.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadithya Sivasankar N R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Aadithya<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hi there, I am</p>
+                <h1 class="name">Aadithya Sivasankar N R</h1>
+                <h2 class="role">Computer Science Engineer <span class="cursor">|</span></h2>
+                <p class="summary">Passionate about building innovative software solutions, from IoT & Blockchain systems to comprehensive mobile applications.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+            <div class="hero-visual" id="hero-visual-area">
+                <div class="ambient-glow"></div>
+                <div class="character-container" id="character-container">
+                    <!-- Cyberpunk Astronaut Robot SVG Character -->
+                    <svg id="cyber-robot" class="cyber-robot-svg" viewBox="0 0 420 540" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <!-- Gradients -->
+                            <linearGradient id="hoodGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#7e22ce" />
+                                <stop offset="50%" stop-color="#581c87" />
+                                <stop offset="100%" stop-color="#3b0764" />
+                            </linearGradient>
+                            <linearGradient id="hoodHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#a855f7" />
+                                <stop offset="100%" stop-color="#6b21a8" />
+                            </linearGradient>
+                            <linearGradient id="visorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#090d16" />
+                                <stop offset="60%" stop-color="#050810" />
+                                <stop offset="100%" stop-color="#020408" />
+                            </linearGradient>
+                            <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#67e8f9" />
+                                <stop offset="50%" stop-color="#06b6d4" />
+                                <stop offset="100%" stop-color="#0e7490" />
+                            </linearGradient>
+                            <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#e2e8f0" />
+                                <stop offset="50%" stop-color="#94a3b8" />
+                                <stop offset="100%" stop-color="#475569" />
+                            </linearGradient>
+                            <linearGradient id="shoeSoleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#22d3ee" />
+                                <stop offset="50%" stop-color="#0891b2" />
+                                <stop offset="100%" stop-color="#164e63" />
+                            </linearGradient>
+                            <radialGradient id="eyeGlowGrad" cx="50%" cy="50%" r="50%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="45%" stop-color="#f0fdfa" />
+                                <stop offset="80%" stop-color="#67e8f9" />
+                                <stop offset="100%" stop-color="#06b6d4" />
+                            </radialGradient>
+                            <radialGradient id="shadowGrad" cx="50%" cy="50%" r="50%">
+                                <stop offset="0%" stop-color="rgba(6, 182, 212, 0.4)" />
+                                <stop offset="40%" stop-color="rgba(126, 34, 206, 0.5)" />
+                                <stop offset="70%" stop-color="rgba(15, 23, 42, 0.8)" />
+                                <stop offset="100%" stop-color="transparent" />
+                            </radialGradient>
+
+                            <!-- Glow Filters -->
+                            <filter id="eyeGlowFilter" x="-50%" y="-50%" width="200%" height="200%">
+                                <feGaussianBlur stdDeviation="5" result="blur1" />
+                                <feGaussianBlur stdDeviation="10" result="blur2" />
+                                <feMerge>
+                                    <feMergeNode in="blur2" />
+                                    <feMergeNode in="blur1" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+                            <filter id="neonCyanGlow" x="-30%" y="-30%" width="160%" height="160%">
+                                <feGaussianBlur stdDeviation="4" result="blur" />
+                                <feMerge>
+                                    <feMergeNode in="blur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+
+                            <!-- Visor Clip Path to strictly contain eyes inside helmet -->
+                            <clipPath id="visorClip">
+                                <ellipse cx="205" cy="175" rx="66" ry="60" />
+                            </clipPath>
+                        </defs>
+
+                        <!-- Ground Shadow & Cyber Ring -->
+                        <g class="char-shadow-group" id="char-shadow">
+                            <ellipse cx="210" cy="505" rx="125" ry="20" fill="url(#shadowGrad)" />
+                            <ellipse cx="210" cy="505" rx="110" ry="14" fill="#090d16" opacity="0.9" />
+                            <ellipse cx="210" cy="505" rx="95" ry="8" fill="#04060a" />
+                            <circle cx="95" cy="505" r="4" fill="#06b6d4" opacity="0.7" />
+                            <circle cx="320" cy="508" r="3" fill="#a855f7" opacity="0.7" />
+                            <circle cx="120" cy="514" r="2.5" fill="#22d3ee" opacity="0.5" />
+                        </g>
+
+                        <!-- Lower Body & Shoes -->
+                        <g class="char-body-group" id="char-body">
+                            <!-- Robot Legs / Ankles -->
+                            <g id="char-legs">
+                                <!-- Left Leg -->
+                                <rect x="156" y="380" width="22" height="32" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2" />
+                                <line x1="156" y1="390" x2="178" y2="390" stroke="#06b6d4" stroke-width="2" />
+                                <line x1="156" y1="398" x2="178" y2="398" stroke="#475569" stroke-width="2" />
+
+                                <!-- Right Leg -->
+                                <rect x="238" y="380" width="22" height="32" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2" />
+                                <line x1="238" y1="390" x2="260" y2="390" stroke="#06b6d4" stroke-width="2" />
+                                <line x1="238" y1="398" x2="260" y2="398" stroke="#475569" stroke-width="2" />
+                            </g>
+
+                            <!-- Left Sneaker -->
+                            <g id="left-sneaker">
+                                <!-- Sole Base -->
+                                <path d="M 112 482 Q 155 478 200 482 Q 204 494 198 502 Q 152 506 110 500 Q 106 490 112 482 Z" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+                                <path d="M 114 485 Q 155 482 196 485 Q 198 494 194 498 Q 153 501 114 496 Z" fill="url(#shoeSoleGrad)" />
+                                <!-- Sole Air Bubble -->
+                                <rect x="160" y="488" width="28" height="6" rx="3" fill="#67e8f9" opacity="0.9" />
+                                <!-- Upper Body of Shoe -->
+                                <path d="M 132 422 L 152 408 Q 178 408 184 430 L 196 476 L 120 478 L 128 440 Z" fill="#581c87" stroke="#1e1b4b" stroke-width="2" />
+                                <!-- Teal Accents & Toe Cap -->
+                                <path d="M 118 476 L 140 474 L 142 458 L 124 456 Z" fill="#06b6d4" />
+                                <path d="M 148 445 L 180 445 L 184 466 L 146 468 Z" fill="#22d3ee" opacity="0.85" />
+                                <!-- Laces -->
+                                <line x1="148" y1="422" x2="168" y2="422" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                                <line x1="146" y1="432" x2="168" y2="432" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                                <line x1="144" y1="442" x2="168" y2="442" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                            </g>
+
+                            <!-- Right Sneaker -->
+                            <g id="right-sneaker">
+                                <!-- Sole Base -->
+                                <path d="M 216 482 Q 262 478 304 482 Q 310 490 306 500 Q 264 506 218 502 Q 212 494 216 482 Z" fill="#0f172a" stroke="#06b6d4" stroke-width="2" />
+                                <path d="M 220 485 Q 262 482 302 485 Q 302 494 298 498 Q 260 501 220 496 Z" fill="url(#shoeSoleGrad)" />
+                                <!-- Sole Air Bubble -->
+                                <rect x="228" y="488" width="28" height="6" rx="3" fill="#67e8f9" opacity="0.9" />
+                                <!-- Upper Body of Shoe -->
+                                <path d="M 234 430 Q 240 408 266 408 L 286 422 L 290 440 L 298 478 L 222 476 Z" fill="#581c87" stroke="#1e1b4b" stroke-width="2" />
+                                <!-- Teal Accents & Toe Cap -->
+                                <path d="M 298 476 L 276 474 L 274 458 L 292 456 Z" fill="#06b6d4" />
+                                <path d="M 236 445 L 270 445 L 268 468 L 234 466 Z" fill="#22d3ee" opacity="0.85" />
+                                <!-- Laces -->
+                                <line x1="250" y1="422" x2="270" y2="422" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                                <line x1="248" y1="432" x2="270" y2="432" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                                <line x1="248" y1="442" x2="272" y2="442" stroke="#f8fafc" stroke-width="2.5" stroke-linecap="round" />
+                            </g>
+
+                            <!-- Hoodie Jacket (Torso & Arms) -->
+                            <g id="char-torso">
+                                <!-- Main Hoodie Torso -->
+                                <path d="M 130 270 Q 120 330 142 384 L 274 384 Q 296 330 286 270 Q 250 252 208 252 Q 166 252 130 270 Z" fill="url(#hoodGrad)" stroke="#1e1b4b" stroke-width="3" />
+                                
+                                <!-- Hoodie Bottom Ribbed Hem -->
+                                <path d="M 142 374 L 274 374 L 272 390 L 144 390 Z" fill="#4c1d95" stroke="#1e1b4b" stroke-width="2" />
+                                <line x1="165" y1="374" x2="165" y2="390" stroke="#3b0764" stroke-width="1.5" />
+                                <line x1="190" y1="374" x2="190" y2="390" stroke="#3b0764" stroke-width="1.5" />
+                                <line x1="225" y1="374" x2="225" y2="390" stroke="#3b0764" stroke-width="1.5" />
+                                <line x1="250" y1="374" x2="250" y2="390" stroke="#3b0764" stroke-width="1.5" />
+
+                                <!-- Left Arm / Sleeve (Hands in Pocket) -->
+                                <path d="M 130 270 Q 106 320 120 366 Q 138 376 150 362 Q 146 320 156 280 Z" fill="#6b21a8" stroke="#1e1b4b" stroke-width="2.5" />
+                                <!-- Left Cuff & Wrist Joint -->
+                                <path d="M 120 356 Q 132 368 144 358" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" fill="none" />
+                                <rect x="128" y="362" width="12" height="10" rx="3" fill="#475569" />
+
+                                <!-- Right Arm / Sleeve (Hands in Pocket) -->
+                                <path d="M 286 270 Q 310 320 296 366 Q 278 376 266 362 Q 270 320 260 280 Z" fill="#6b21a8" stroke="#1e1b4b" stroke-width="2.5" />
+                                <!-- Right Cuff & Wrist Joint -->
+                                <path d="M 296 356 Q 284 368 272 358" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" fill="none" />
+                                <rect x="276" y="362" width="12" height="10" rx="3" fill="#475569" />
+
+                                <!-- Front Center Zipper Line & Pocket -->
+                                <path d="M 160 365 Q 208 345 256 365" stroke="#3b0764" stroke-width="3" fill="none" />
+                                <line x1="208" y1="262" x2="208" y2="374" stroke="#0f172a" stroke-width="4" />
+                                <line x1="208" y1="262" x2="208" y2="374" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="3,2" />
+                                <!-- Zipper Slider -->
+                                <rect x="204" y="278" width="8" height="10" rx="2" fill="#e2e8f0" stroke="#0f172a" stroke-width="1.5" />
+                                <circle cx="208" cy="292" r="3" fill="#94a3b8" />
+
+                                <!-- Drawstrings with Tips -->
+                                <path d="M 184 256 Q 178 290 180 320" stroke="#f1f5f9" stroke-width="3" fill="none" stroke-linecap="round" />
+                                <rect x="178" y="318" width="4.5" height="12" rx="2" fill="#06b6d4" stroke="#0f172a" stroke-width="1" />
+
+                                <path d="M 232 256 Q 238 290 236 320" stroke="#f1f5f9" stroke-width="3" fill="none" stroke-linecap="round" />
+                                <rect x="234" y="318" width="4.5" height="12" rx="2" fill="#06b6d4" stroke="#0f172a" stroke-width="1" />
+                            </g>
+                        </g>
+
+                        <!-- Interactive Character Head Group (Rotates and Tilts towards Cursor) -->
+                        <g class="char-head-group" id="char-head">
+                            <!-- Outer Large Rounded Cyber Hood -->
+                            <g id="char-outer-hood">
+                                <ellipse cx="205" cy="172" rx="114" ry="110" fill="url(#hoodGrad)" stroke="#1e1b4b" stroke-width="4" />
+                                <!-- Hood Top Seams and Folds -->
+                                <path d="M 125 105 Q 205 70 285 105" stroke="#a855f7" stroke-width="3.5" fill="none" opacity="0.6" />
+                                <path d="M 150 78 Q 205 58 260 78" stroke="#c084fc" stroke-width="2" fill="none" opacity="0.5" />
+                                <!-- Hood Rim Shading -->
+                                <ellipse cx="205" cy="174" rx="100" ry="96" fill="#3b0764" opacity="0.8" />
+                            </g>
+
+                            <!-- White / Silver Inner Hood Rim Arch -->
+                            <g id="char-inner-rim">
+                                <path d="M 120 185 C 115 110, 295 110, 290 185 C 285 240, 125 240, 120 185 Z" fill="#e2e8f0" stroke="#0f172a" stroke-width="3.5" />
+                                <!-- Segment Lines on Rim -->
+                                <line x1="165" y1="112" x2="168" y2="128" stroke="#64748b" stroke-width="2.5" />
+                                <line x1="205" y1="106" x2="205" y2="122" stroke="#64748b" stroke-width="2.5" />
+                                <line x1="245" y1="112" x2="242" y2="128" stroke="#64748b" stroke-width="2.5" />
+                            </g>
+
+                            <!-- Cyber Headphones (Left & Right Ear Cups + Antenna) -->
+                            <g id="char-headphones">
+                                <!-- Left Ear Cushion -->
+                                <ellipse cx="106" cy="175" rx="16" ry="34" fill="#0891b2" stroke="#0f172a" stroke-width="3" />
+                                <ellipse cx="103" cy="175" rx="10" ry="26" fill="#06b6d4" />
+
+                                <!-- Right Cyber Headphone with Concentric Rings & Antenna -->
+                                <g id="right-headphone">
+                                    <!-- Outer Earcup Base -->
+                                    <ellipse cx="304" cy="175" rx="22" ry="40" fill="#0f172a" stroke="#06b6d4" stroke-width="3" />
+                                    <!-- Cyan Ring -->
+                                    <ellipse cx="306" cy="175" rx="16" ry="32" fill="url(#cyanGrad)" stroke="#0f172a" stroke-width="2" />
+                                    <!-- Inner Dial -->
+                                    <circle cx="308" cy="175" r="10" fill="#0f172a" stroke="#67e8f9" stroke-width="2" />
+                                    <circle cx="308" cy="175" r="4" fill="#22d3ee" />
+                                    
+                                    <!-- Antenna Shaft -->
+                                    <path d="M 314 140 L 314 85" stroke="#0f172a" stroke-width="5" stroke-linecap="round" />
+                                    <path d="M 314 140 L 314 85" stroke="url(#cyanGrad)" stroke-width="3" stroke-linecap="round" />
+                                    <!-- Antenna Glowing Tip -->
+                                    <circle cx="314" cy="80" r="5.5" fill="#67e8f9" filter="url(#neonCyanGlow)" />
+                                    <circle cx="314" cy="80" r="2.5" fill="#ffffff" />
+                                </g>
+                            </g>
+
+                            <!-- Dark Visor Helmet Screen -->
+                            <g id="char-visor-group">
+                                <!-- Visor Background -->
+                                <ellipse cx="205" cy="175" rx="68" ry="62" fill="url(#visorGrad)" stroke="#0f172a" stroke-width="4" />
+                                
+                                <!-- Visor Inner Neon Accent Rim -->
+                                <ellipse cx="205" cy="175" rx="65" ry="59" fill="none" stroke="#0891b2" stroke-width="1.5" opacity="0.5" />
+
+                                <!-- Interactive Eyes (Clipped Inside Visor) -->
+                                <g id="char-eyes-container" clip-path="url(#visorClip)">
+                                    <g id="char-eyes" class="char-eyes-group">
+                                        <!-- Left Glowing Eye -->
+                                        <g id="eye-left-group" class="eye-unit">
+                                            <ellipse id="eye-left" cx="178" cy="172" rx="16" ry="24" fill="url(#eyeGlowGrad)" filter="url(#eyeGlowFilter)" />
+                                            <ellipse cx="178" cy="172" rx="14" ry="21" fill="#ffffff" />
+                                            <circle cx="174" cy="165" r="4" fill="#ffffff" opacity="0.9" />
+                                        </g>
+
+                                        <!-- Right Glowing Eye -->
+                                        <g id="eye-right-group" class="eye-unit">
+                                            <ellipse id="eye-right" cx="232" cy="172" rx="16" ry="24" fill="url(#eyeGlowGrad)" filter="url(#eyeGlowFilter)" />
+                                            <ellipse cx="232" cy="172" rx="14" ry="21" fill="#ffffff" />
+                                            <circle cx="228" cy="165" r="4" fill="#ffffff" opacity="0.9" />
+                                        </g>
+                                    </g>
+                                </g>
+
+                                <!-- Visor Glass Specular Reflection Curves -->
+                                <path d="M 152 145 Q 205 125 258 145 Q 240 134 205 130 Q 170 134 152 145 Z" fill="#ffffff" opacity="0.25" />
+                                <ellipse cx="160" cy="148" rx="8" ry="4" fill="#ffffff" opacity="0.4" transform="rotate(-20 160 148)" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-title">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-text fade-in">
+                    <p>I am a dedicated Computer Science Engineer with a strong foundation in modern technologies. My journey involves continuous learning and practical application, evidenced by my academic achievements and hands-on projects.</p>
+                    
+                    <h3 class="subsection-title">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>B.Tech in Computer Science Engineering</h4>
+                            <p>Albertian Institute Of Science And Technology | APJ Abdul Kalam Technological University</p>
+                            <span class="date">CGPA: 7.39</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Higher Secondary Examination</h4>
+                            <p>St Joseph Higher Secondary School | Kerala DHSE Board</p>
+                            <span class="date">91%</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>10th ICSE</h4>
+                            <p>Mount Tabor Residential Central School | ICSE Board</p>
+                            <span class="date">70%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-experience fade-in">
+                    <h3 class="subsection-title">Internships</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Engineering Intern</h4>
+                            <p>Cochin Shipyard Limited</p>
+                            <span class="date">June 2025</span>
+                            <p class="timeline-desc">Completed a comprehensive internship program, gaining practical industry exposure and technical insights.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Engineering Intern</h4>
+                            <p>Zindot Innovations</p>
+                            <span class="date">Dec 2022 – Jan 2023</span>
+                            <p class="timeline-desc">Collaborated with technical teams on system development and software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding bg-alt">
+            <div class="section-title">
+                <h2>Skills & <span>Expertise</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card fade-up">
+                    <i class="fa-brands fa-java skill-icon"></i>
+                    <h3>Java</h3>
+                    <p>Certified Course</p>
+                </div>
+                <div class="skill-card fade-up">
+                    <i class="fa-solid fa-c skill-icon"></i>
+                    <h3>C & C++</h3>
+                    <p>Certified Course</p>
+                </div>
+                <div class="skill-card fade-up">
+                    <i class="fa-solid fa-database skill-icon"></i>
+                    <h3>DBMS</h3>
+                    <p>NPTEL Certified</p>
+                </div>
+                <div class="skill-card fade-up">
+                    <i class="fa-brands fa-flutter skill-icon"></i>
+                    <h3>Flutter</h3>
+                    <p>Mobile App Development</p>
+                </div>
+                <div class="skill-card fade-up">
+                    <i class="fa-brands fa-bitcoin skill-icon"></i>
+                    <h3>Blockchain & IoT</h3>
+                    <p>Integrated Solutions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-title">
+                <h2>My <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-up">
+                    <div class="project-content">
+                        <h3>Secure Track Vaccine Shipment System</h3>
+                        <p class="tech-stack">IoT and Blockchain Technology</p>
+                        <ul>
+                            <li>Designed and implemented a secure tracking system for vaccine shipments combining IoT devices and Blockchain technology.</li>
+                            <li>Assured data integrity, traceability, and real-time temperature monitoring across the supply chain.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-up">
+                    <div class="project-content">
+                        <h3>GYMTRACK</h3>
+                        <p class="tech-stack">Flutter Mini Project</p>
+                        <ul>
+                            <li>Developed a Flutter-based application for comprehensive gym management.</li>
+                            <li>Implemented user authentication, personalized exercise plans, and automated alert messaging.</li>
+                            <li>Integrated an administrative portal for user management and an in-app fee payment gateway.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-alt">
+            <div class="section-title">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info fade-in">
+                    <h3>Let's connect</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-detail">
+                                <h4>Location</h4>
+                                <p>Ernakulam, Kerala 682301</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="contact-detail">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+916238479732">+91 62384 79732</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-detail">
+                                <h4>Email</h4>
+                                <p><a href="mailto:aadithyasivasankar10@gmail.com">aadithyasivasankar10@gmail.com</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/aadithya-sivasankar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/aadithya__s" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/Aadithya108" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form fade-in" action="https://formsubmit.co/aadithyasivasankar10@gmail.com" method="POST">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_subject" value="New Portfolio Message from Website Visitor">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    <div class="form-status" style="display: none; margin-top: 15px; font-size: 0.95rem; font-weight: 500;"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aadithya Sivasankar N R. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

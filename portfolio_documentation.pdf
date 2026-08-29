@@ -1,0 +1,981 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 7671 >>
+stream
+0.060 0.090 0.160 rg
+45.00 726.89 505.28 70.00 re f
+0.230 0.510 0.960 rg
+45.00 726.89 4.00 70.00 re f
+BT
+/Helvetica-Bold 18 Tf
+0.970 0.980 1.000 rg
+1 0 0 1 63.00 766.89 Tm
+(Aadithya Sivasankar N R — Portfolio Documentation) Tj
+ET
+BT
+/Helvetica 10 Tf
+0.580 0.640 0.720 rg
+1 0 0 1 63.00 744.89 Tm
+(Comprehensive Technical Architecture, Languages, Frameworks & Robot Animation Deep-Dive) Tj
+ET
+0.930 0.950 0.980 rg
+45.00 697.89 505.28 22.00 re f
+0.230 0.510 0.960 rg
+45.00 697.89 3.00 22.00 re f
+BT
+/Helvetica-Bold 13 Tf
+0.080 0.150 0.300 rg
+1 0 0 1 55.00 703.89 Tm
+(1. Technology Stack & Languages Used) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 675.89 Tm
+(This modern, responsive portfolio application is built with a zero-bloat, high-performance) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 662.89 Tm
+(architecture using modern web standards and APIs:) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 645.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 645.89 Tm
+(HTML5 \(HyperText Markup Language\): Semantic page structure, accessibility attributes,) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 633.89 Tm
+(navigation landmarks, meta tags, and deep SVG embedding.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 619.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 619.89 Tm
+(CSS3 \(Cascading Style Sheets\): Vanilla CSS design system using Custom Properties) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 607.89 Tm
+(\(Variables\), 3D perspective transforms, Flexbox/Grid layouts, Glassmorphism) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 595.89 Tm
+(backdrop-filters, and keyframe animations.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 581.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 581.89 Tm
+(JavaScript \(Vanilla ES6+\): Pointer events listener, dynamic vector coordinate math,) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 569.89 Tm
+(linear interpolation \(Lerp\) physics loop on requestAnimationFrame, and asynchronous) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 557.89 Tm
+(fetch API.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 543.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 543.89 Tm
+(Scalable Vector Graphics \(SVG\): Fully customized, resolution-independent vector) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 531.89 Tm
+(illustrations with gradient shaders, glow filters \(feGaussianBlur\), and clipping paths) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 519.89 Tm
+(\(clipPath\).) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 505.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 505.89 Tm
+(Node.js Backend Server \(server.js\): Lightweight built-in HTTP server providing) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 493.89 Tm
+(MIME-type static file serving and port-collision auto recovery.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 479.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 479.89 Tm
+(FormSubmit API \(Cloud Forwarder\): Asynchronous REST endpoint handling contact form) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 467.89 Tm
+(submissions and forwarding them directly to your Gmail without server backend) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 455.89 Tm
+(overhead.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 441.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 441.89 Tm
+(Font Awesome 6 & Google Fonts \(Outfit\): Iconography suite for navigation/social links,) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 429.89 Tm
+(combined with modern geometric typography.) Tj
+ET
+0.930 0.950 0.980 rg
+45.00 401.89 505.28 22.00 re f
+0.230 0.510 0.960 rg
+45.00 401.89 3.00 22.00 re f
+BT
+/Helvetica-Bold 13 Tf
+0.080 0.150 0.300 rg
+1 0 0 1 55.00 407.89 Tm
+(2. System Architecture & File Organization) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 379.89 Tm
+(The codebase follows a modular separation of concerns between structure, visual) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 366.89 Tm
+(presentation, and interactive mechanics:) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 349.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 349.89 Tm
+(index.html: Main document containing Navbar, Hero Section with Cyber Robot SVG, About) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 337.89 Tm
+(\(Education & Internships\), Technical Skills, Projects, Contact Form, and Footer.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 323.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 323.89 Tm
+(style.css: Design system tokens, color palettes, glassmorphism cards, responsive media) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 311.89 Tm
+(queries \(desktop, tablet, mobile\), and 3D perspective canvas rules.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 297.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 297.89 Tm
+(script.js: Core logic: Mobile hamburger menu toggle, navbar scroll effects, scroll-spy) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 285.89 Tm
+(navigation, asynchronous contact form dispatcher, and robot mouse tracking controller.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 271.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 271.89 Tm
+(server.js: Zero-dependency Node HTTP web server running on port 3000.) Tj
+ET
+0.930 0.950 0.980 rg
+45.00 243.89 505.28 22.00 re f
+0.230 0.510 0.960 rg
+45.00 243.89 3.00 22.00 re f
+BT
+/Helvetica-Bold 13 Tf
+0.080 0.150 0.300 rg
+1 0 0 1 55.00 249.89 Tm
+(3. Deep-Dive: How the Robot Cursor-Tracking Animation Works) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 221.89 Tm
+(The interactive robot character in the Hero section uses a multi-tiered pipeline involving) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 208.89 Tm
+(Vector SVG layering, CSS 3D perspectives, and Javascript vector trigonometry with Linear) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 195.89 Tm
+(Interpolation \(Lerp\).) Tj
+ET
+BT
+/Helvetica-Bold 11 Tf
+0.450 0.220 0.780 rg
+1 0 0 1 45.00 172.89 Tm
+(Phase A: Layered SVG Construction \(index.html\)) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 156.89 Tm
+(The robot is constructed in vector layers so that individual parts can be isolated and) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 143.89 Tm
+(transformed independently in 2D and 3D space:) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 126.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 126.89 Tm
+(#char-head: The entire head group \(purple hood, silver rim, cyan headphones with) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 114.89 Tm
+(pulsing LED antenna, and visor\). Rotates in 3D \(pitch, yaw, roll\).) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 100.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 100.89 Tm
+(#char-visor-group: Glossy dark shield helmet screen with specular glass reflection) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 88.89 Tm
+(arc.) Tj
+ET
+BT
+/Helvetica 8 Tf
+0.5 0.55 0.65 rg
+1 0 0 1 277.64 25 Tm
+(Page 1 of 3) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /Helvetica 3 0 R /Helvetica-Bold 4 0 R /Courier 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 5437 >>
+stream
+0.800 0.850 0.900 rg
+45.00 806.89 505.28 1.00 re f
+BT
+/Helvetica 8 Tf
+0.400 0.450 0.550 rg
+1 0 0 1 45.00 813.89 Tm
+(Aadithya's Portfolio — Technical Architecture & Code Explanation) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 796.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 796.89 Tm
+(#char-eyes-container \(clip-path\): Clipped strictly to the inside of the visor so the) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 784.89 Tm
+(eyes never bleed outside the helmet screen boundary.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 770.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 770.89 Tm
+(#char-eyes: Dual glowing cyan-white circular eyes with radial gradient shaders and) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 758.89 Tm
+(feGaussianBlur glow filters.) Tj
+ET
+BT
+/Helvetica-Bold 11 Tf
+0.450 0.220 0.780 rg
+1 0 0 1 45.00 738.89 Tm
+(Phase B: 3D Canvas & Perspective Setup \(style.css\)) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 722.89 Tm
+(In style.css, the parent container is given a 3D perspective to enable genuine depth:) Tj
+ET
+0.080 0.110 0.180 rg
+45.00 542.89 505.28 163.00 re f
+BT
+/Helvetica-Bold 8 Tf
+0.400 0.750 0.980 rg
+1 0 0 1 55.00 693.89 Tm
+(CSS: 3D Perspective and Transform Origins) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 681.89 Tm
+(.hero-visual {) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 670.89 Tm
+(    perspective: 1200px;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 659.89 Tm
+(    transform-style: preserve-3d;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 648.89 Tm
+(}) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 637.89 Tm
+(.char-head-group {) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 626.89 Tm
+(    transform-origin: 205px 175px;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 615.89 Tm
+(    will-change: transform;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 604.89 Tm
+(    transition: transform 0.06s cubic-bezier\(0.2, 0.8, 0.2, 1\);) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 593.89 Tm
+(}) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 582.89 Tm
+(.char-eyes-group {) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 571.89 Tm
+(    transform-origin: 205px 172px;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 560.89 Tm
+(    will-change: transform;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 549.89 Tm
+(}) Tj
+ET
+BT
+/Helvetica-Bold 11 Tf
+0.450 0.220 0.780 rg
+1 0 0 1 45.00 528.89 Tm
+(Phase C: Mouse Vector Math & Normalized Offsets \(script.js\)) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 512.89 Tm
+(When the user moves their mouse \(or touches their mobile screen\), script.js computes the) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 499.89 Tm
+(relative vector from the character head center:) Tj
+ET
+0.080 0.110 0.180 rg
+45.00 297.89 505.28 185.00 re f
+BT
+/Helvetica-Bold 8 Tf
+0.400 0.750 0.980 rg
+1 0 0 1 55.00 470.89 Tm
+(JavaScript: Mouse Vector & Normalization Math) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 458.89 Tm
+(const rect = characterContainer.getBoundingClientRect\(\);) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 447.89 Tm
+(const charCenterX = rect.left + rect.width * 0.49;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 436.89 Tm
+(const charCenterY = rect.top + rect.height * 0.33;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 425.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 414.89 Tm
+(const deltaX = clientX - charCenterX;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 403.89 Tm
+(const deltaY = clientY - charCenterY;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 392.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 381.89 Tm
+(// Normalize between -1.0 and +1.0) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 370.89 Tm
+(const normX = Math.max\(-1, Math.min\(1, deltaX / \(window.innerWidth * 0.4\)\)\);) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 359.89 Tm
+(const normY = Math.max\(-1, Math.min\(1, deltaY / \(window.innerHeight * 0.4\)\)\);) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 348.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 337.89 Tm
+(targetEyeX = normX * 24;  // Eye displacement in px) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 326.89 Tm
+(targetEyeY = normY * 18;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 315.89 Tm
+(targetHeadRotY = normX * 18;  // Head Yaw in degrees) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 304.89 Tm
+(targetHeadRotX = -normY * 14; // Head Pitch in degrees) Tj
+ET
+BT
+/Helvetica-Bold 11 Tf
+0.450 0.220 0.780 rg
+1 0 0 1 45.00 283.89 Tm
+(Phase D: Smooth Physics via Linear Interpolation \(Lerp\)) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 267.89 Tm
+(Rather than jumping instantly to the mouse position, script.js runs a 60 FPS) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 254.89 Tm
+(requestAnimationFrame loop that smoothly glides \(damps\) towards the target position:) Tj
+ET
+BT
+/Helvetica 8 Tf
+0.5 0.55 0.65 rg
+1 0 0 1 277.64 25 Tm
+(Page 2 of 3) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /Helvetica 3 0 R /Helvetica-Bold 4 0 R /Courier 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 5642 >>
+stream
+0.800 0.850 0.900 rg
+45.00 806.89 505.28 1.00 re f
+BT
+/Helvetica 8 Tf
+0.400 0.450 0.550 rg
+1 0 0 1 45.00 813.89 Tm
+(Aadithya's Portfolio — Technical Architecture & Code Explanation) Tj
+ET
+0.080 0.110 0.180 rg
+45.00 611.89 505.28 185.00 re f
+BT
+/Helvetica-Bold 8 Tf
+0.400 0.750 0.980 rg
+1 0 0 1 55.00 784.89 Tm
+(JavaScript: Lerp Animation Loop) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 772.89 Tm
+(function animateCharacter\(\) {) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 761.89 Tm
+(    const lerpEye = 0.10;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 750.89 Tm
+(    const lerpHead = 0.08;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 739.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 728.89 Tm
+(    currentEyeX += \(targetEyeX - currentEyeX\) * lerpEye;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 717.89 Tm
+(    currentEyeY += \(targetEyeY - currentEyeY\) * lerpEye;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 706.89 Tm
+(    currentHeadRotY += \(targetHeadRotY - currentHeadRotY\) * lerpHead;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 695.89 Tm
+(    currentHeadRotX += \(targetHeadRotX - currentHeadRotX\) * lerpHead;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 684.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 673.89 Tm
+(    // Apply transforms directly to SVG elements) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 662.89 Tm
+(    charEyes.style.transform = `translate\(${currentEyeX.toFixed\(2\)}px, ${currentEyeY.toFixed\(2\)}px\)`;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 651.89 Tm
+(    charHead.style.transform = `translate\(${currentHeadTransX}px, ${currentHeadTransY}px\) rotateY\(${currentHeadRotY}deg\) rotateX\(${currentHeadRotX}deg\)`;) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 640.89 Tm
+() Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 629.89 Tm
+(    requestAnimationFrame\(animateCharacter\);) Tj
+ET
+BT
+/Courier 7.8 Tf
+0.850 0.900 0.950 rg
+1 0 0 1 57.00 618.89 Tm
+(}) Tj
+ET
+BT
+/Helvetica-Bold 11 Tf
+0.450 0.220 0.780 rg
+1 0 0 1 45.00 597.89 Tm
+(Phase E: Micro-Interactions & Easter Eggs) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 581.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 581.89 Tm
+(Periodic Blinking \(triggerRandomBlink\): A randomized timer triggers every 3–6.5) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 569.89 Tm
+(seconds, temporarily scaling scaleY of the eyes to 0.08 for 160ms.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 555.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 555.89 Tm
+(Rest Position Decay \(mouseleave\): When the mouse leaves the browser window, targets) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 543.89 Tm
+(smoothly return to zero, centering the character face.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 529.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 529.89 Tm
+(Celebration Click Effect: Clicking the robot triggers a bounce keyframe animation) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 517.89 Tm
+(\(robotCheer\) and a celebratory double-blink.) Tj
+ET
+0.930 0.950 0.980 rg
+45.00 489.89 505.28 22.00 re f
+0.230 0.510 0.960 rg
+45.00 489.89 3.00 22.00 re f
+BT
+/Helvetica-Bold 13 Tf
+0.080 0.150 0.300 rg
+1 0 0 1 55.00 495.89 Tm
+(4. Real-Time Gmail Dispatcher \(Get In Touch Section\)) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 467.89 Tm
+(The contact form in index.html is linked to FormSubmit API with an AJAX listener in) Tj
+ET
+BT
+/Helvetica 9.5 Tf
+0.180 0.220 0.280 rg
+1 0 0 1 45.00 454.89 Tm
+(script.js:) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 437.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 437.89 Tm
+(Asynchronous Fetch: Submits JSON data containing sender name, email, subject, and) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 425.89 Tm
+(message without triggering page reloads.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 411.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 411.89 Tm
+(Visual Feedback: Changes button text from "Sending..." to "Message Sent! ✓" in emerald) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 399.89 Tm
+(green upon successful delivery.) Tj
+ET
+BT
+/Helvetica-Bold 10 Tf
+0.230 0.510 0.960 rg
+1 0 0 1 51.00 385.89 Tm
+(•) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 385.89 Tm
+(Fail-Safe Fallback: If the visitor is offline or a browser blocker interferes, it) Tj
+ET
+BT
+/Helvetica 9 Tf
+0.200 0.240 0.300 rg
+1 0 0 1 63.00 373.89 Tm
+(automatically redirects to the user default email client \(mailto:\).) Tj
+ET
+0.930 0.980 0.990 rg
+45.00 299.89 505.28 60.00 re f
+0.020 0.710 0.830 rg
+45.00 299.89 3.00 60.00 re f
+BT
+/Helvetica-Bold 9.5 Tf
+0.050 0.450 0.550 rg
+1 0 0 1 57.00 345.89 Tm
+(Key Project Highlights) Tj
+ET
+BT
+/Helvetica 8.5 Tf
+0.150 0.250 0.320 rg
+1 0 0 1 57.00 332.89 Tm
+(This portfolio combines crisp vector graphics, zero-dependency Node serving,) Tj
+ET
+BT
+/Helvetica 8.5 Tf
+0.150 0.250 0.320 rg
+1 0 0 1 57.00 320.89 Tm
+(GPU-accelerated 3D transforms, real-time physics interpolation, and) Tj
+ET
+BT
+/Helvetica 8.5 Tf
+0.150 0.250 0.320 rg
+1 0 0 1 57.00 308.89 Tm
+(cloud-forwarded Gmail delivery to deliver an unforgettable user experience.) Tj
+ET
+BT
+/Helvetica 8 Tf
+0.5 0.55 0.65 rg
+1 0 0 1 277.64 25 Tm
+(Page 3 of 3) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /Helvetica 3 0 R /Helvetica-Bold 4 0 R /Courier 5 0 R >> >> /Contents 10 0 R >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000128 00000 n 
+0000000198 00000 n 
+0000000273 00000 n 
+0000000341 00000 n 
+0000008064 00000 n 
+0000008240 00000 n 
+0000013729 00000 n 
+0000013905 00000 n 
+0000019600 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+19778
+%%EOF
